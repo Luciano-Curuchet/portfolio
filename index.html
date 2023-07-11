@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"
+      integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Portfolio Luciano</title>
   </head>
   <body>
@@ -12,6 +21,8 @@
       <div class="nombre-logo"></div>
 
       <nav class="navbar">
+        <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
         <ul>
           <li><a class="navbar-link" href="#hero">INICIO</a></li>
           <li><a class="navbar-link" href="#about">SOBRE MI</a></li>
@@ -119,6 +130,52 @@
           </div>
         </div>
       </section>
+      <section id="portfolio">
+        <h3>Ventajas de contratarme</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="container">
+          <div class="benefit-1">
+            <img src="./img/corazon.png" alt="imagen-corazon" />
+            <h4>Beneficio 1</h4>
+            <p>
+              Beneficio explicando por qué deberían preferirte a vos y a tu
+              laburo en lugar de elegir a otro
+            </p>
+          </div>
+
+          <div class="benefit-2">
+            <img src="./img/bombilla.png" alt="foto-focodeluz" />
+            <h4>Beneficio 2</h4>
+            <p>
+              Beneficio explicando por qué deberían preferirte a vos y a tu
+              laburo en lugar de elegir a otro
+            </p>
+          </div>
+
+          <div class="benefit-3">
+            <img src="./img/planta.png" alt="foto-planta" />
+            <h4>Beneficio 3</h4>
+            <p>
+              Beneficio explicando por qué deberían preferirte a vos y a tu
+              laburo en lugar de elegir a otro
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+    <section id="contacto">
+      <footer class="footer">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </section>
   </body>
 </html>

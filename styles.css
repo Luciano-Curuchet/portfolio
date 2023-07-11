@@ -34,14 +34,26 @@ header {
   box-shadow: 0 5px 20px #070707;
   position: fixed;
   top: 0;
-  left: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header img {
   height: 80%;
   box-shadow: #27dfff 0px 2px 4px 2px;
   border-radius: 100%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
 }
 
 .navbar ul {
@@ -71,7 +83,7 @@ header {
   padding: 60px 0;
   justify-content: center;
   align-items: center;
-  max-width: 1400px;
+  width: 90%;
 }
 
 main {
@@ -81,7 +93,6 @@ main {
   justify-content: center;
   align-items: center;
   color: var(--texto-blanco);
-  width: 100%;
   margin-top: 70px;
 }
 
@@ -129,7 +140,7 @@ main {
 }
 
 .hero-card {
-  width: 220px;
+  width: 200px;
   height: 500px;
   background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
   display: flex;
@@ -166,13 +177,11 @@ main {
 }
 
 #about {
-  margin-top: 70px;
-  max-width: 1400px;
-  padding: 60px 40px 50px 40px;
+  padding: 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-image: url(img/profesion-de-programador-web.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -223,6 +232,7 @@ main {
   align-items: center;
   word-spacing: 3px;
   justify-content: center;
+  gap: 30px;
 }
 
 .mis-intereses h3 {
@@ -285,4 +295,125 @@ main {
   padding: 15px 0;
   font-size: 20px;
   font-weight: 600;
+}
+
+#portfolio {
+  padding: 60px 30px 60px 30px;
+  width: 90%;
+}
+
+#portfolio h3 {
+  font-size: 50px;
+  font-weight: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 20px 45px 20px;
+  gap: 30px;
+}
+
+.benefit-1 {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 30%;
+}
+
+.benefit-1 h4 {
+  font-size: 25px;
+  font-family: 700px;
+}
+
+.benefit-1 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.benefit-2 {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 30%;
+}
+
+.benefit-2 h4 {
+  font-size: 25px;
+  font-family: 700px;
+}
+
+.benefit-2 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.benefit-3 {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 30%;
+}
+
+.benefit-3 h4 {
+  font-size: 25px;
+  font-family: 700px;
+}
+
+.benefit-3 p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.benefit-1 img {
+  width: 40px;
+  border-radius: 1rem;
+}
+
+.benefit-2 img {
+  width: 40px;
+  border-radius: 1rem;
+}
+.benefit-3 img {
+  width: 40px;
+  border-radius: 1rem;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
